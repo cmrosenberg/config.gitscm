@@ -1,6 +1,8 @@
 [alias]
+        a = add
         ad = add
         b = branch
+        branc = branch
         br = branch
         c = checkout
         c- = checkout -
@@ -10,6 +12,7 @@
         che = checkout
         check = checkout
         checkolut = checkout
+        checkot = checkout
         checkut = checkout
         checokut = checkout
         checout = checkout
@@ -26,11 +29,13 @@
         psh = push
         puhs = push
         rebi = rebase --interactive
+        rebse = rebase
         restorre = restore
         ri = rebase --interactive
         sattus = status
         satus = status
         s = status
+        stats = status
         statsu = status
         statzus = status
         staus = status
