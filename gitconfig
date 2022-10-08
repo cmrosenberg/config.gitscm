@@ -1,3 +1,6 @@
+[user]
+        name = Carl Martin Rosenberg
+        email = github@cmrosenberg.com
 [alias]
         a = add
         ad = add
@@ -25,6 +28,7 @@
         dd = add
         dif = diff
         ds = diff --staged
+        idff = diff
         occmit = commit
         psh = push
         puhs = push
