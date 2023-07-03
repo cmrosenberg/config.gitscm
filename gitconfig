@@ -39,6 +39,9 @@
         rebi = rebase --interactive
         rebse = rebase
         restorre = restore
+        restpore = restore
+        restpre = restore
+        restre = restore
         ri = rebase --interactive
         sattus = status
         satus = status
@@ -48,12 +51,14 @@
         statzus = status
         staus = status
         stauts = status
+        unstage-all = reset HEAD 
         unstage = restore --staged
 
 [core]
         excludesfile = ~/.gitignore
         editor = vim
-[include]
+
+[includeIf "gitdir:~/nbt/"]
         path = ~/.gitconfig.local
 [pull]
         ff = only
