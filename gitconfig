@@ -15,6 +15,7 @@
         che = checkout
         check = checkout
         checko = checkout
+        checkoiut = checkout
         checkokut = checkout
         checkolut = checkout
         checkot = checkout
@@ -26,6 +27,7 @@
         chekc = checkout
         chekcout = checkout
         chekout = checkout
+        comimit = commit
         comimt = commit
         commi = commit
         commt = commit
