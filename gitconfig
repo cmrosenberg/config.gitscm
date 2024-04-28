@@ -14,6 +14,7 @@
         chec = checkout
         che = checkout
         check = checkout
+        checkeout = checkout
         checko = checkout
         checkoiut = checkout
         checkokut = checkout
@@ -53,12 +54,14 @@
         statzus = status
         staus = status
         stauts = status
+        tadd = add
         unstage-all = reset HEAD 
         unstage = restore --staged
 
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+	pager = delta
 
 [includeIf "gitdir:~/nbt/"]
         path = ~/.gitconfig.local
@@ -67,3 +70,9 @@
         rebase = false
 [init]
         defaultBranch = main
+
+[delta]
+        syntax-theme = Dracula
+
+[help]
+        autocorrect = prompt
