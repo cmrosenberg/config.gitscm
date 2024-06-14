@@ -61,18 +61,14 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
-	pager = delta
 
-[includeIf "gitdir:~/nbt/"]
+[include]
         path = ~/.gitconfig.local
 [pull]
         ff = only
         rebase = false
 [init]
         defaultBranch = main
-
-[delta]
-        syntax-theme = Dracula
 
 [help]
         autocorrect = prompt
