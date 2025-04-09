@@ -58,6 +58,10 @@
         unstage-all = reset HEAD 
         unstage = restore --staged
 
+[branch]
+        sort = -comitterdate
+[tag]
+        sort = version:refname
 [core]
         excludesfile = ~/.gitignore
         editor = vim
@@ -72,3 +76,6 @@
 
 [help]
         autocorrect = prompt
+[commit]
+	gpgsign = true
+	verbose = true
